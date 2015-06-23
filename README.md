@@ -1,7 +1,7 @@
 README
 ------
 
-Ruby conference in Israel
+Building a Client-Side With Ember and Rails: Updated to the latest Ember
 
 http://URL/#/stories
 
