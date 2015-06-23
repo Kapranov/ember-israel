@@ -1,0 +1,14 @@
+<form {{action 'create' this on="submit"}}>
+  {{#if model.isSaving}}
+    <p>Saving Record...</p>
+  {{/if}}
+  <p>
+    {{input type="text" value=model.title}}
+  </p>
+  
+  <p>
+    {{textarea value=model.body}}
+  </p>
+  
+  <button>Create</button>
+</form>
